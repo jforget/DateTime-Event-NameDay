@@ -6,9 +6,10 @@ Module::Build->new
       license      => 'perl',
 
       requires     => { 'DateTime'                           => 0,
+                        'DateTime::Set'                      => 0,
                         'DateTime::Calendar::Christian'      => 0,
 			'Params::Validate'                   => 0.52,
 			'Test::More'                         => 0,
-			'Unicode::Normalize'                 => 0,
+			'Carp'                               => 0,
                       },
     )->create_build_script;

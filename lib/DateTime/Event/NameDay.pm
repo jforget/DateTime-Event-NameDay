@@ -4,7 +4,7 @@ use strict;
 
 use vars qw ($VERSION);
 
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 use Carp;
 use Params::Validate qw( validate SCALAR OBJECT HASHREF );
@@ -12,8 +12,6 @@ use Params::Validate qw( validate SCALAR OBJECT HASHREF );
 use DateTime;
 use DateTime::Set;
 use DateTime::Calendar::Christian;
-
-use Unicode::Normalize;
 
 
 my %namedays = ();
