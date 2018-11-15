@@ -20,7 +20,7 @@ sub nameday_data {
 # ReformDate: 1753/02/28
 
 1: # January
-  1 *Nyårsdagen
+  1 *NyÃ¥rsdagen
   2 Svea
   3 Alfred, Alfrida
   4 Rut
@@ -44,9 +44,9 @@ sub nameday_data {
  22 Vincent, Viktor
  23 Frej, Freja
  24 Erika
- 25 Paul, Pål
+ 25 Paul, PÃ¥l
  26 Bodil, Boel
- 27 Göte, Göta
+ 27 GÃ¶te, GÃ¶ta
  28 Karl, Karla
  29 Diana
  30 Gunilla, Gunhild
@@ -54,8 +54,8 @@ sub nameday_data {
 
 2: # February
   1 Max, Maximilian
-  2 *Kyndelsmässodagen
-  3 Disa, Hjördis
+  2 *KyndelsmÃ¤ssodagen
+  3 Disa, HjÃ¶rdis
   4 Ansgar, Anselm
   5 Agata, Agda
   6 Dorotea, Doris
@@ -91,7 +91,7 @@ sub nameday_data {
   6 Ebba, Ebbe
   7 Camilla
   8 Siv
-  9 Torbjörn, Torleif
+  9 TorbjÃ¶rn, Torleif
  10 Edla, Ada
  11 Edvin, Egon
  12 Viktoria
@@ -137,7 +137,7 @@ sub nameday_data {
  20 Amalia, Amelie
  21 Anneli, Annika
  22 Allan, Glenn
- 23 Georg, Göran
+ 23 Georg, GÃ¶ran
  24 Vega
  25 Markus
  26 Teresia, Terese
@@ -154,10 +154,10 @@ sub nameday_data {
   5 Gotthard, Erhard
   6 Marit, Rita
   7 Carina, Carita
-  8 Åke
+  8 Ã…ke
   9 Reidar, Reidun
- 10 Esbjörn, Styrbjörn
- 11 Märta, Märit
+ 10 EsbjÃ¶rn, StyrbjÃ¶rn
+ 11 MÃ¤rta, MÃ¤rit
  12 Charlotta, Lotta
  13 Linnea, Linn
  14 Halvard, Halvar
@@ -169,7 +169,7 @@ sub nameday_data {
  20 Karolina, Carola
  21 Konstantin, Conny
  22 Hemming, Henning
- 23 Desideria, Desirée
+ 23 Desideria, DesirÃ©e
  24 Ivan, Vanja
  25 Urban
  26 Vilhelmina, Vilma
@@ -185,20 +185,20 @@ sub nameday_data {
   3 Ingemar, Gudmar
   4 Solbritt, Solveig
   5 Bo
-  6 Gustav, Gösta
+  6 Gustav, GÃ¶sta
   7 Robert, Robin
   8 Eivor, Majvor
-  9 Börje, Birger
+  9 BÃ¶rje, Birger
  10 Svante, Boris
  11 Bertil, Berthold
  12 Eskil
  13 Aina, Aino
- 14 Håkan, Hakon
+ 14 HÃ¥kan, Hakon
  15 Margit, Margot
  16 Axel, Axelina
  17 Torborg, Torvald
- 18 Björn, Bjarne
- 19 Germund, Görel
+ 18 BjÃ¶rn, Bjarne
+ 19 Germund, GÃ¶rel
  20 Linda
  21 Alf, Alvar
  22 Paula, Paulina
@@ -219,8 +219,8 @@ sub nameday_data {
   6 Esaias, Jessika
   7 Klas
   8 Kjell
-  9 Jörgen, Örjan
- 10 André, Andrea
+  9 JÃ¶rgen, Ã–rjan
+ 10 AndrÃ©, Andrea
  11 Eleonora, Ellinor
  12 Herman, Hermine
  13 Joel, Judit
@@ -262,14 +262,14 @@ sub nameday_data {
  16 Brynolf
  17 Verner, Valter
  18 Ellen, Lena
- 19 Magnus, Måns
+ 19 Magnus, MÃ¥ns
  20 Bernhard, Bernt
  21 Jon, Jonna
  22 Henrietta, Henrika
  23 Signe, Signhild
  24 Bartolomeus
  25 Lovisa, Louise
- 26 Östen
+ 26 Ã–sten
  27 Rolf, Raoul
  28 Gurli, Leila
  29 Hans, Hampus
@@ -288,7 +288,7 @@ sub nameday_data {
   9 Anita, Annette
  10 Tord, Turid
  11 Dagny, Helny
- 12 Åsa, Åslög
+ 12 Ã…sa, Ã…slÃ¶g
  13 Sture
  14 Ida
  15 Sigrid, Siri
@@ -331,7 +331,7 @@ sub nameday_data {
  20 Sibylla
  21 Ursula, Yrsa
  22 Marika, Marita
- 23 Severin, Sören
+ 23 Severin, SÃ¶ren
  24 Evert, Eilert
  25 Inga, Ingalill
  26 Amanda, Rasmus
@@ -352,7 +352,7 @@ sub nameday_data {
   8 Vendela
   9 Teodor, Teodora
  10 Martin, Martina
- 11 Mårten
+ 11 MÃ¥rten
  12 Konrad, Kurt
  13 Kristian, Krister
  14 Emil, Emilia
@@ -401,7 +401,7 @@ sub nameday_data {
  25 *Juldagen
  26 Stefan, Staffan
  27 Johannes, Johan
- 28 Benjamin, *Värnlösa barns dag
+ 28 Benjamin, *VÃ¤rnlÃ¶sa barns dag
  29 Natalie, Natalia
  30 Abel, Set
  31 Sylvester
