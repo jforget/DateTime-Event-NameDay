@@ -122,7 +122,7 @@ sub nameday_data {
  13 Ida
  14 Ludivine, Maxime
  15 César
- 16 Rameaux
+ 16 Benoît-Joseph, Bernadette
  17 Anicet
  18 Parfait
  19 Emma
