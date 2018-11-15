@@ -1,3 +1,13 @@
+0.03  2008-xx-xx
+
+- Fix the regexp starting with /^*
+- Fix test scripts, so that "my" variables do not hide other "my" variables
+- Fix _make_recurrence, to deal with infinite dates
+
+0.02  2003-04-27
+
+- Second release
+
 0.01  2003-04-26
 
 - First release

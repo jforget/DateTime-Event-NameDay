@@ -179,6 +179,8 @@ sub get_namedays {
 sub _make_recurrence {
     my ($last, $reform_date, $month, $day, $direction, $date_args) = @_;
 
+    return $last if $last->is_infinite;
+
     my $dt = DateTime::Calendar::Christian->from_object
 	(object      => $last,
 	 reform_date => $reform_date,
@@ -270,7 +272,7 @@ sub _init_nameday_country {
 	    # Split the names apart and store the forward mapping
 	    # For the moment remove the * indicating holidays
 	    $names =~ s/\s+$//;
-	    my @names = map { s/^*//; $_ } split /\s*,\s*/, $names;
+	    my @names = map { s/^\*//; $_ } split /\s*,\s*/, $names;
 	    $forward->{$month}{$day} = \@names;
 
 	    # Store the reverse mapping

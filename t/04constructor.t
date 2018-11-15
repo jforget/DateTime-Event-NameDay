@@ -29,8 +29,8 @@ my $dt3 = DateTime->from_object(object => $dt2);
     my $names = join ":", @names;
     is( $names, 'Alfred:Alfrida', 'class sub get_daynames' );
 
-    my @names = $nameday->get_daynames(country => 'sweden',
+    @names = $nameday->get_daynames(country => 'sweden',
 				       date    => $dt3);
-    my $names = join ":", @names;
+    $names = join ":", @names;
     is( $names, 'Alfred:Alfrida', 'class sub get_daynames before reform ('.$dt3->ymd.')' );
 }
