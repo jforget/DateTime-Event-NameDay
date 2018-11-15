@@ -6,7 +6,9 @@
 #
 package DateTime::Event::NameDay;
 
+use utf8;
 use strict;
+use warnings;
 
 use vars qw ($VERSION);
 

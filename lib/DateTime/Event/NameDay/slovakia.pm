@@ -6,6 +6,9 @@
 #
 package DateTime::Event::NameDay::slovakia;
 
+use utf8;
+use strict;
+use warnings;
 use DateTime;
 
 sub nameday_data {
