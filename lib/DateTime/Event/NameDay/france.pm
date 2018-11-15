@@ -1,3 +1,9 @@
+#
+#     Perl extension to work with namedays from France
+#     Copyright (C) 2003, 2018 Ben Bennett and Jean Forget
+#
+#     See the license in the embedded documentation below.
+#
 package DateTime::Event::NameDay::france;
 
 use DateTime;
@@ -402,3 +408,46 @@ EOF;
 }
 
 1;
+
+__END__
+
+=head1 DESCRIPTION
+
+This module cannot be used alone. It must be used with
+C<DateTime::Event::NameDay>. Please refer to this module.
+
+=head1 AUTHOR
+
+First author: Ben Bennett <fiji at limey dot net>
+
+Unofficial co-maintainer: Jean Forget <JFORGET@cpan.org>
+
+=head1 COPYRIGHT
+
+Copyright  (c) 2003,  2018 Ben  Bennett  and Jean  Forget. All  rights
+reserved.  This program  is  free software;  you  can redistribute  it
+and/or modify it under the same terms as Perl itself.
+
+Portions of the code in this distribution are derived from other
+works.  Please see the CREDITS file for more details.
+
+You can find the text of the licenses in the F<LICENSE> file with this
+module or at L<https://dev.perl.org/licenses/artistic.html> and
+L<https://www.gnu.org/licenses/gpl-1.0.html>.
+
+Here is the summary of GPL:
+
+This program is  free software; you can redistribute  it and/or modify
+it under the  terms of the GNU General Public  License as published by
+the Free  Software Foundation; either  version 1, or (at  your option)
+any later version.
+
+This program  is distributed in the  hope that it will  be useful, but
+WITHOUT   ANY  WARRANTY;   without  even   the  implied   warranty  of
+MERCHANTABILITY  or FITNESS  FOR A  PARTICULAR PURPOSE.   See  the GNU
+General Public License for more details.
+
+You should  have received  a copy  of the  GNU General  Public License
+along with  this program; if not,  see <https://www.gnu.org/licenses/>
+or write to the Free Software Foundation, Inc., L<https://fsf.org>.
+
