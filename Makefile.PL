@@ -25,32 +25,87 @@
 #     along with this program; if not, write to the Free Software Foundation,
 #     Inc., <https://www.fsf.org/>.
 #
-use strict;
 
-unless (eval "use Module::Build::Compat 0.02; 1" ) {
-    print "This module requires Module::Build to install itself.\n";
-
-    require ExtUtils::MakeMaker;
-    my $yn = ExtUtils::MakeMaker::prompt
-        ('  Install Module::Build from CPAN?', 'y');
-
-    if ($yn =~ /^y/i) {
-        require Cwd;
-        require File::Spec;
-        require CPAN;
-
-        # Save this 'cause CPAN will chdir all over the place.
-        my $cwd = Cwd::cwd();
-        my $makefile = File::Spec->rel2abs($0);
-
-        CPAN::Shell->install('Module::Build::Compat');
-
-        chdir $cwd or die "Cannot chdir() back to $cwd: $!";
-        exec $^X, $makefile, @ARGV;  # Redo now that we have Module::Build
-    } else {
-        warn " *** Cannot install without Module::Build.  Exiting ...\n";
-        exit 1;
-    }
-}
-Module::Build::Compat->run_build_pl(args => \@ARGV);
-Module::Build::Compat->write_makefile();
+use ExtUtils::MakeMaker;
+WriteMakefile(
+    NAME         => 'DateTime::Event::NameDay',
+    VERSION_FROM => 'lib/DateTime/Event/NameDay.pm',
+    PREREQ_PM    => { DateTime 	                    => 0,
+                      DateTime::Set                 => 0,
+                      DateTime::Calendar::Christian => 0,
+                      Test::More                    => 0,
+                      Carp                          => 0,
+                      Params::Validate              => 0,
+                     'vars'                         => 0,
+                     'strict'                       => 0,
+                     'warnings'                     => 0,
+                       },
+    AUTHOR       => [ 'Ben Bennett (fiji@limey.net)', 'Jean Forget <JFORGET@cpan.org>' ],
+    ABSTRACT     => 'Namedays from various countries',
+    LICENSE        => 'perl',
+    BUILD_REQUIRES => { 'Test::More'         => '0',        # should be 'TEST_REQUIRES', except that ExtUtils::MakeMaker 6.5705 does not accept it
+                        'ExtUtils::MakeMaker' => '6.57_02', # the first version to accept several authors in an arrayref
+                           },
+    MIN_PERL_VERSION => '5.6.1',
+    META_MERGE       => {
+       dynamic_config => 0,
+       provides       => {
+           'DateTime::Event::NameDay' => {
+                file => 'lib/DateTime/Event/NameDay.pm',
+                version => '0.02',
+           },
+           'DateTime::Event::NameDay::france' => {
+                file => 'lib/DateTime/Event/NameDay/france.pm',
+                version => '0.02',
+           },
+           'DateTime::Event::NameDay::greece' => {
+                file => 'lib/DateTime/Event/NameDay/greece.pm',
+                version => '0.02',
+           },
+           'DateTime::Event::NameDay::slovakia' => {
+                file => 'lib/DateTime/Event/NameDay/slovakia.pm',
+                version => '0.02',
+           },
+           'DateTime::Event::NameDay::sweden' => {
+                file => 'lib/DateTime/Event/NameDay/sweden.pm',
+                version => '0.02',
+           },
+       },
+       'meta-spec' => { version => 2 },
+       resources => {
+           repository => {
+               type => 'git',
+               url  => 'https://github.com/jforget/DateTime-Event-NameDay.git',
+               web  => 'https://github.com/jforget/DateTime-Event-NameDay',
+           },
+       },
+       prereqs => {
+         build => {
+           requires => {
+             'strict'                         => 0,
+             'warnings'                       => 0,
+           },
+         },
+         runtime => {
+           requires => {
+             'vars'                           => 0,
+             'strict'                         => 0,
+             'warnings'                       => 0,
+             'Carp'                           => 0,
+             'DateTime'                       => 0,
+             'DateTime::Set'                  => 0,
+             'DateTime::Calendar::Christian'  => 0,
+             'Params::Validate'               => 0,
+             'perl'                           => '5.6.1',
+           },
+         },
+         test => {
+           requires => {
+             'Test::More'                     => '0',
+             'strict'                         => 0,
+             'warnings'                       => 0,
+           },
+         },
+       },
+    },
+);
