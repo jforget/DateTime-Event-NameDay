@@ -26,6 +26,7 @@
 #     Inc., <http://www.fsf.org/>.
 #
 
+use utf8;
 use strict;
 
 use Test::More;

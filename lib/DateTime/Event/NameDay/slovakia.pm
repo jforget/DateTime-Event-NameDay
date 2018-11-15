@@ -4,6 +4,7 @@
 #
 #     See the license in the embedded documentation below.
 #
+
 package DateTime::Event::NameDay::slovakia;
 
 use utf8;
@@ -95,9 +96,9 @@ sub nameday_data {
   4 Kazimír
   5 Fridrich
   6 Radoslav
-  7 Tomá${scar}
+  7 Tomáš
   8 Alan, Alana
-  9 Franti$scar}ka
+  9 Františka
  10 Branislav, Bruno
  11 Angela, Angelika
  12 Gregor
