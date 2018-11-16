@@ -46,7 +46,7 @@ WriteMakefile(
     BUILD_REQUIRES => { 'Test::More'         => '0',        # should be 'TEST_REQUIRES', except that ExtUtils::MakeMaker 6.5705 does not accept it
                         'ExtUtils::MakeMaker' => '6.57_02', # the first version to accept several authors in an arrayref
                            },
-    MIN_PERL_VERSION => '5.6.1',
+    MIN_PERL_VERSION => '5.8.8', # IIRC, the first version with a good support of Unicode
     META_MERGE       => {
        dynamic_config => 0,
        provides       => {

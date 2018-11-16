@@ -10,3 +10,4 @@ directory:
    make test
    make install
 
+or use a tool like the CPAN shell or CPAN-Minus (cpanm).
