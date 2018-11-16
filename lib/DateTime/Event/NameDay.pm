@@ -325,7 +325,8 @@ sub _check_country {
     return $@ ? 0 : 1;
 }
 
-1;
+# Ending a module with "1" is so boring. Using some other true value is fun
+'Par sainte Barbe, vive la sape !';
 
 __END__
 

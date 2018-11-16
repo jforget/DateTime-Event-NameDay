@@ -17,7 +17,7 @@ sub nameday_data {
            <<"EOF;");
 # From:       http://meilleursprenoms.com/site/Fetes/Fetes.htm
 # Country:    France
-# ReformDate: 1752/12/20
+# ReformDate: 1582-12-20
 
 1: # January
   1 *Jour de l'an #'
@@ -379,7 +379,7 @@ sub nameday_data {
   1 Florence
   2 Viviane
   3 Xavier
-  4 Barbara
+  4 Barbe, Barbara
   5 Gérald # Gérard
   6 Nicolas
   7 Ambroise
@@ -410,7 +410,9 @@ sub nameday_data {
 EOF;
 }
 
-1;
+# Instead of ending the module with a boring "1" value, celebrate the
+# saint absent from the calendar
+'Saint Glinglin';
 
 __END__
 
