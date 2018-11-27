@@ -24,7 +24,7 @@ sub nameday_data {
   2 Basile
   3 Geneviève
   4 Odilon
-  5 Edouard
+  5 Édouard
   6 Balthazar, Mélaine, Melchior, Tiffany
   7 Aldric, Cédric, Raymond
   8 Lucien
@@ -44,7 +44,8 @@ sub nameday_data {
  22 Vincent
  23 Banard
  24 François
- 26 Timothé # Pauline
+ 25 *Conversion de Paul #
+ 26 Timothée # Pauline
  27 Angèle
  28 Manfred, *Thomas d'Aquin #'
  29 Gildas
@@ -64,9 +65,9 @@ sub nameday_data {
  10 Arnaud
  11 Lourdes, *Notre Dame de Lourdes
  12 Félix
- 13 Béatrice
+ 13 Béatrice, Jordan
  14 Valentin
- 15 Claude, Georgina, Jordan
+ 15 Claude, Georgina
  16 Julienne, Lucile, Onésime
  17 Alexis
  18 Bernadette
@@ -102,8 +103,8 @@ sub nameday_data {
  17 Patrice, Patrick
  18 Cyrille
  19 Joseph
- 20 *Printemps
- 21 Axelle, Clémence
+ 20 Alexandra, Herbert, Sandra, Sasha 
+ 21 Axel, Axelle, Clémence
  22 Léa
  23 Rébecca, Victorien
  24 Karine # Catherine
@@ -165,11 +166,11 @@ sub nameday_data {
  15 Denise
  16 Brendan, Honoré
  17 Pascal
- 18 Eric
+ 18 Éric
  19 Célestin, Erwan, Yves
  20 Bernardin
  21 Constantin
- 22 Emile, Quitterie, Rita
+ 22 Émile, Quitterie, Rita
  23 Didier
  24 Donatien
  25 Sophie
@@ -201,7 +202,7 @@ sub nameday_data {
  18 Léonce
  19 Gervais, Romuald
  20 Silvère
- 21 Eté
+ 21 Gonzague # Rodolphe 
  22 Alban
  23 Audrey
  24 Jean-Baptiste
@@ -251,7 +252,7 @@ sub nameday_data {
   3 Lydie
   4 Vianney
   5 Abel
-  6 *Transfiguration
+  6 Octavien, Sauveur, *Transfiguration
   7 Gaétan
   8 Dominique
   9 Amour
@@ -285,16 +286,16 @@ sub nameday_data {
   4 Iris, Moïse, Rosalie
   5 Raïssa
   6 Bertrand, Eva
-  7 Reine
+  7 Reine, Régine
   8 Adrien, Béline, Nativité
   9 Alain, Omer
  10 Inès
  11 Adelphe, Glenn, Vinciane
  12 Apollinaire
  13 Aimé
- 14 *Croix Glorieuse
- 15 Dolores, Roland
- 16 Edith
+ 14 Corneille, Cornélie, Cornille, *Croix Glorieuse
+ 15 Dolorès, Roland
+ 16 Édith
  17 Hildegarde, Lambert, Renaud
  18 Nadège, Véra
  19 Emilie
@@ -332,20 +333,20 @@ sub nameday_data {
  19 Cléo, René
  20 Adeline, Aline
  21 Céline, Ursule
- 22 Elodie, Salomé, Sara
+ 22 Élodie, Salomé, Sara
  23 Simon, *Jean de Capistran
  24 Florentin
  25 Crépin
  26 Dimitri
- 27 Emeline
+ 27 Émeline
  28 Jude
  29 Narcisse
  30 Bienvenue, Maéva
  31 Quentin
 
 11: # November
-  1 Toussaint
-  2 Défunts
+  1 Harold, *Toussaint
+  2 Océane, *Défunts
   3 Gwenaël, Hubert
   4 Aymeric, Charles, Jessé
   5 Sylvie, Zacharie
