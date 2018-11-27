@@ -53,7 +53,7 @@ my $dt3 = DateTime->from_object(object => $dt2);
 {
     my $namedays = $nameday->get_namedays(country => 'sweden',
 					  name    => 'Alfred');
-    $namedays = $namedays->intersection( DateTime::Span->new(start => $dt1, end => $dt2) );
+    $namedays = $namedays->intersection( DateTime::Span->new(start => $dt1, end => $dt3) );
     my $iter = $namedays->iterator();
     my @res = ();
     while (my $dt = $iter->next()) {
@@ -67,7 +67,7 @@ my $dt3 = DateTime->from_object(object => $dt2);
 {
     my $namedays = $nameday->get_namedays(country => 'sweden',
 					  name    => 'aLFred');
-    $namedays = $namedays->intersection( DateTime::Span->new(start => $dt1, end => $dt2) );
+    $namedays = $namedays->intersection( DateTime::Span->new(start => $dt1, end => $dt3) );
     my $iter = $namedays->iterator();
     my @res = ();
     while (my $dt = $iter->next()) {
